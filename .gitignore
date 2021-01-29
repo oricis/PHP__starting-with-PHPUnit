@@ -1,0 +1,13 @@
+.idea
+.roboci
+*.ini
+.php_cs.cache
+Dockerfile
+
+vendor/*
+
+log.*
+version.*
+
+!*/.gitkeep
+!*/*.do
