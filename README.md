@@ -1,14 +1,40 @@
-PHP - Install PHPUnit
+# PHP - Install and use PHPUnit
+
+
+## Install PHPUnit
+
+        composer install
+
+
+## Run test
+
+        phpunit PruebaTest.php
+
+    or
+
+        ../vendor/bin/phpunit PruebaTest.php
+
+
+## Create a command alias (from 'tests' directory):
+
+    alias phpunit='php ../vendor/bin/phpunit'
+
+***
+
+### PHP classes
+
+    PHP clases are on 'src/'.
+
+
+### Test classes
+
+    Unit tests, are available in 'tests/'
+
 ========================================================================
 
     Moisés Alcocer
-    2021, <contacto@ironwoods.es>
+    <contacto@ironwoods.es>
     https://www.ironwoods.es
 
     MIT Licence, 2021
 ========================================================================
-
-    Testing
-    ********************************************************************
-
-        Example unit tests, are available in 'tests/'

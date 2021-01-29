@@ -15,12 +15,3 @@ class PruebaTest extends TestCase
         $this->assertEquals($expected, $result);
     }
 }
-
-// Run test:
-//    phpunit PruebaTest.php
-//
-// or
-//    ../vendor/bin/phpunit PruebaTest.php
-//
-// Aliases command:
-//     alias phpunit='php ../vendor/bin/phpunit'
